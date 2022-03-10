@@ -1,0 +1,414 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.logo h1{
+    letter-spacing: 6px;
+    color: rgb(255, 251, 251);
+}
+.logo h1 span{
+    color: #ff0048;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transform: translateY(-10);
+    transition: 0.4s;
+}
+nav ul li a:hover{
+    color: #dc134d;
+}
+.welcome-head{
+    margin-top:3%;
+    background: rgba(1, 1, 1, 0.9);
+    opacity: 5px;
+    position: relative;
+    align-items: center;
+}
+.welcome-head h3{
+    text-align: center;
+    padding: 10%;
+    font-size: 35px;
+    font-family: 'Aclonica', sans-serif;
+    color: #fff;
+}
+.welcome-head h3 span{
+    color: rgb(255, 0, 43);
+    font-family: 'Josefin Sans', sans-serif;
+}
+/* this section is for introduction and numbers stating.. */
+.introduction{
+    margin-top:3%;
+    background: rgba(1, 1, 1, 0.9);
+    opacity: 5px;
+    position: relative;
+    align-items: center;
+}
+.introduction h1{
+    text-align: center;
+    padding: 10%;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+}
+.introduction h1 span{
+    color: rgb(9, 255, 0);
+    font-family: 'Josefin Sans', sans-serif;
+}
+.introduction-snapchat{
+    margin-top:3%;
+    background: rgba(1, 1, 1, 0.9);
+    opacity: 5px;
+    position: relative;
+    align-items: center;
+}
+.introduction-snapchat h1{
+    text-align: center;
+    padding: 10%;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+}
+.introduction-snapchat h1 span{
+    color: rgb(217, 255, 0);
+    font-family: 'Josefin Sans', sans-serif;
+}
+/* this section is for introduction and numbers Ending.*/
+
+.section1{
+    min-width: 100%;
+    margin: auto;
+}
+.section2{
+    background: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    height: 1000px;
+}
+.section1 .heading-para{
+    width: 100%;
+    margin: auto;
+}
+.section1 .heading-para h1{
+    text-align: center;
+    color: #fff;
+    letter-spacing: 10px;
+    font-weight: 400px;
+    padding: 20px;
+    font-size: 75px;
+}
+.section1 .heading-para p{
+    text-align: center;
+    color: lavender;
+    font-size: 45px;
+    font-family: 'Shadows Into Light', cursive;
+}
+.vidcontainer{
+    position: absolute;
+    width: 100%;
+}
+.vidcontainer video{
+    width: 100%;
+    height: 1000px;
+    margin: 199px 0px;
+    left: 0;
+}
+.sectioin2-body h1{
+    padding-top: 150px;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 25px;
+}
+.sectioin2-body h1 span{
+    text-align: center;
+    justify-content: center;
+    font-family: 'Shadows Into Light', cursive;
+    color: #dc134d;
+    font-size: 40px;
+}
+.sectioin2-body p{
+    text-align: center;
+    justify-content: center;
+    font-family: 'Shadows Into Light', cursive;
+    color: crimson;
+    font-size: 20px;
+}
+.sectioin2-body .button{
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 100px;
+    margin-left: 35%;
+}
+.button a{
+  background: #dc134d;
+  padding: 10px 30px;
+  color: #fff;
+  border: #dc134d;
+  transform: translateX(-50%);
+  transition: 0.8s;
+}
+.button a:hover{
+    background: #fff;
+    color: #000;
+    border: #fff;
+}
+.custom-shape-divider-bottom-1638925361 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+.custom-shape-divider-bottom-1638925361 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 221px;
+}
+
+.custom-shape-divider-bottom-1638925361 .shape-fill {
+    fill: #e8eb4b;
+}
+/* categoiries */
+.parallax{
+    min-height: 600px;
+    background: transparent;
+    background-size: cover;
+}
+.section-3{
+    width: 100%;
+    height: 900px;
+    background: #e8eb4b;
+}
+.section-3 h1{
+    font-weight: 600px;
+    text-align: center;
+}
+/* section border */
+.custom-shape-divider-bottom-1639405965 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1639405965 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 130px;
+}
+
+.custom-shape-divider-bottom-1639405965 .shape-fill {
+    fill: #FFFCFC;
+}
+footer{
+    position: relative;
+    width: 100%;
+    background: #fff;
+    min-height: 100px;
+    padding: 20px 50px;
+    flex-direction: column;
+}
+footer .social-links, .menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+footer .social-links li, .menu li{
+    list-style: none;
+}
+footer .social-links li a{
+    font-size: 2em;
+    color: #000;
+    margin: 0 10px;
+    transition: 0.5s;
+    text-decoration: none;
+}
+footer .social-links li a:hover{
+    transform: translateY(-10px);
+    color: #dc134d;
+}
+footer .menu li a{
+    font-size: 1.2em;
+    color: #000;
+    margin: 0 10px;
+    transition: 0.5s;
+    display: inline-block;
+    text-decoration: none;
+}
+footer .menu li a:hover{
+    transform: translateY(-10px);
+    color: #dc134d;
+}
+footer p{
+    text-align: center;
+    color: #000;
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+/* this is for the products page: */
+.carousel-inner{
+    transition: 0.5s;
+}
+.carousel-inner:hover{
+    filter: grayscale(10);
+    opacity: 0.8;
+    transform: translateY(-10px);
+}
+.carousel-caption h3{
+    font-size: 2em;
+    color: #dc134d;
+}
+.carousel-caption p{
+    color: #000;
+    font-size: 20px;
+}
+/* end of products page */
+
+/* Contacts page */
+.contact-in{
+    width: 80%;
+    height: 250px;
+    margin: auto;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 10px 10px 0px #666;
+}
+.contact-map{
+    width: 100%;
+    height: auto;
+    flex: 50%;
+}
+.contact-form{
+    width: 100%;
+    height: auto;
+    flex: 50%;
+}
+.contact-form h1{
+    text-align: center;
+    padding: 25px;
+}
+.contact-form-txt{
+    width: 100%;
+    height: 40px;
+    color: #000;
+    border: 1px solid #dc134d;
+    border: 50px;
+    outline: none;
+    margin-bottom: 50px;
+    padding: 15px;
+}
+.contact-form-txtarea{
+    width: 100%;
+    height: 130px;
+    color: #000;
+    border: 1px solid #dc134d;
+    border: 50px;
+    outline: none;
+    margin-bottom: 50px;
+    padding: 15px;
+}
+/* for the product cards */
+.section2-product{
+    width: 25%;
+    position: relative;
+    height: 350px;
+    background: #ff0048;
+    margin: 10px 25px;
+}
+/* FOR THE WHAT'S APP PAGE. */
+section-whatsapp{
+    position:relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: #111;
+    flex-direction: column;
+    overflow: hidden;
+}
+section-whatsapp .row{
+    position: relative;
+    top: -50%;
+    cursor: default;
+    width: 100%;
+    display: flex;
+    white-space: nowrap;
+    font-size: 55px;
+}
+section-whatsapp .row i{
+    color: rgba(0, 0, 0, 0.5);
+    transition: 1s;
+    padding: 0px 5px;
+    user-select: none;
+    cursor: default;
+}
+section-whatsapp .row i:hover{
+    transition: 0.0s;
+    color: #0f0;
+    text-shadow:  0 0 120px #0f0;
+}
+/* FOR THE SNAPCHAT PAGE. */
+section-Snapchat{
+    position:relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: #111;
+    flex-direction: column;
+    overflow: hidden;
+}
+section-Snapchat .rows1{
+    position: relative;
+    top: -50%;
+    cursor: default;
+    width: 100%;
+    display: flex;
+    white-space: nowrap;
+    font-size: 55px;
+}
+section-Snapchat .rows1 i{
+    color: rgba(0, 0, 0, 0.5);
+    transition: 1s;
+    padding: 0px 5px;
+    user-select: none;
+    cursor: default;
+}
+section-Snapchat .rows1 i:hover{
+    transition: 0.0s;
+    color: rgb(200, 255, 0);
+    text-shadow:  0 0 120px rgb(200, 255, 0);
+}
