@@ -299,23 +299,23 @@ footer p{
 /* for the product cards */
 .section2-product{
     width: 100%;
-    justify-items: center;
     height: 550px;
     background: #ff0048;
-    border-radius: 15px;
     margin-top: 25px;
-    margin: auto;
 }
 .cards{
     width: 31%;
     height: 250px;
     background: rgb(253, 253, 253);
     float: left;
-    margin-left: 15px;
-    margin-top: 15px;
+    padding-left: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-top-left-radius:5px;
+    border-top-right-radius: 5px;
     margin-bottom: 5px;
 }
-
 /* end of products page */
 
 /* Contacts page */
