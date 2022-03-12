@@ -319,6 +319,37 @@ footer p{
 /* end of products page */
 
 /* Contacts page */
+.contact-box{
+    margin: auto;
+    margin-top: 30px;
+    width: 50%;
+    height: 400px;
+    background: rgb(44, 44, 44);
+    box-shadow: 10px 5px 5px rgb(94, 94, 94);
+    border-radius: 5px;
+}
+.uname{
+    padding: 5px;
+    margin-left: 15px;
+    font-size:30px;
+    color:#ff0048;
+}
+.pass{
+    margin-left: 15px;
+    padding: 5px;
+    font-size:30px;
+    color:#ff0048;
+}
+.txtuname{
+    margin-left: 15px;
+    border-radius: 15px;
+    padding: 5px;
+}
+.txtpass{
+    border-radius: 20px;
+    padding: 5px;
+    margin-left: 15px;
+}
 .contact-in{
     width: 80%;
     height: 250px;
