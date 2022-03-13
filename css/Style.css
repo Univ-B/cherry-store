@@ -296,26 +296,53 @@ footer p{
     color: #000;
     font-size: 20px;
 }
-/* for the product cards */
-.section2-product{
+/* ABout cards */
+.campus{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.campus-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.campus-col img{
     width: 100%;
-    height: 550px;
-    background: #ff0048;
-    margin-top: 25px;
+    display: block;
 }
-.cards{
-    width: 31%;
-    height: 250px;
-    background: rgb(253, 253, 253);
-    float: left;
-    padding-left: 20px;
-    margin-top: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
-    border-top-left-radius:5px;
-    border-top-right-radius: 5px;
-    margin-bottom: 5px;
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
 }
+.layer:hover{
+    background: rgba(266,0,0,0.7);
+}
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+
 /* end of products page */
 
 /* Contacts page */
