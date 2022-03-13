@@ -344,17 +344,7 @@ footer p{
 }
 
 /* end of products page */
-
-/* Contacts page */
-.contact-box{
-    margin: auto;
-    margin-top: 30px;
-    width: 50%;
-    height: 400px;
-    background: rgb(44, 44, 44);
-    box-shadow: 10px 5px 5px rgb(94, 94, 94);
-    border-radius: 5px;
-}
+/* LOgin Page.*/
 .uname{
     padding: 5px;
     margin-left: 15px;
@@ -376,6 +366,17 @@ footer p{
     border-radius: 20px;
     padding: 5px;
     margin-left: 15px;
+}
+/* end of login page. */
+/* Contacts page */
+.contact-box{
+    margin: auto;
+    margin-top: 30px;
+    width: 50%;
+    height: 400px;
+    background: rgb(44, 44, 44);
+    box-shadow: 10px 5px 5px rgb(94, 94, 94);
+    border-radius: 5px;
 }
 .contact-in{
     width: 80%;
