@@ -372,10 +372,11 @@ footer p{
 .contact-box{
     margin: auto;
     margin-top: 30px;
+    margin-bottom: 10px;
     width: 50%;
-    height: 400px;
+    height: 500px;
     background: rgb(44, 44, 44);
-    box-shadow: 10px 5px 5px rgb(94, 94, 94);
+    box-shadow: 5px 5px 5px 5px rgb(94, 94, 94);
     border-radius: 5px;
 }
 .contact-in{
