@@ -484,3 +484,16 @@ section-Snapchat .rows1 i:hover{
     color: rgb(200, 255, 0);
     text-shadow:  0 0 120px rgb(200, 255, 0);
 }
+/* COntact info */
+.feed-backform{
+    max-width: 50%;
+    height: 500px;
+    background: #666;
+    margin: auto;
+    margin-top: 10%;
+}
+.login-credentials{
+    margin-left: 50px;
+    margin-top: 50px;
+    padding: 20px;
+}
