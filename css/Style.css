@@ -510,14 +510,66 @@ section-Snapchat .rows1 i:hover{
     padding: 10px;
     font-size: 25px;
 }
+.navi h1 span{
+    color: #dc134d;
+    font-family: 'Shadows Into Light', cursive;
+}
 .account-window{
     width: 50%;
-    height: 500px;
+    height: 550px;
+    border-radius: 6px;
     margin: auto;
-    background: #666;
-    margin-top: 50px;
+    background: rgb(26, 26, 26);
+    box-shadow: 5px 4px 5px rgb(161, 161, 161);
+    margin-top: 20px;
 }
 .account-credentials{
+    color: #fff;
     margin-left: 35px;
     margin-top: 20px;
+}
+.account-credentials h1{
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    padding: 30px;
+}
+.btno{
+    width: 25%;
+    padding: 15px;
+    border: none;
+    border-radius: 3px;
+    color: #000;
+    background: #fff;
+    transform: translateY(20%);
+}
+.btno:hover{
+    color: #fff;
+    background: #ff0048;
+    transition: 0.2s;
+   
+}
+#uname{
+    outline: none;
+    padding: 5px;
+    font-size: 15px;
+}
+#fname{
+    outline: none;
+    padding: 5px;
+    font-size: 15px;
+}
+#udates{
+    outline: none;
+    padding: 5px;
+    font-size: 15px;
+}
+#email{
+    outline: none;
+    padding: 5px;
+    font-size: 15px;
+}
+#pass{
+    outline: none;
+    padding: 5px;
+    font-size: 15px;
 }
